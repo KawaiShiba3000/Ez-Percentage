@@ -18,23 +18,27 @@ int main() {
     float d;
     float e;
     
-cin>>a;
-cin>>b;
-cin>>c;
-cin>>d;
-cin>>e;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    cin>>d;
+    cin>>e;
+
+    cout << "Entered Marks : " << a << " " << b << " " << c << " " << d << " " << e << " " << endl;
 
     float marks = a+b+c+d+e;
     float total;
     cin >> total;
     
-float percentage = (marks*100)/total;
+    cout << "Total Max. Marks : " << total << endl;
+    
+    float percentage = (marks*100)/total;
 
-cout << "marks out of " << total << " : " << marks << endl;
+    cout << "Marks Obtained In " << total << " : " << marks << endl;
 
-cout << "percentage : " << percentage << "%";
+    cout << "Percentage : " << percentage << "%";
 
-return 0;
+    return 0;
 
 
 }
