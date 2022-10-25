@@ -12,11 +12,11 @@ also give you the percentage you got*/
 
 int main() {
 
-float a;
-float b;
-float c;
-float d;
-float e;
+double a;
+double b;
+double c;
+double d;
+double e;
     
 cin>>a;
 cin>>b;
@@ -24,11 +24,11 @@ cin>>c;
 cin>>d;
 cin>>e;
 
-float marks = a+b+c+d+e;
-float total;
+double marks = a+b+c+d+e;
+double total;
 cin >> total;
     
-float percentage = (marks*100)/total;
+double percentage = (marks*100)/total;
 
 cout << "Entered Marks : " << a << " , " << b << " , " << c << " , " << d << " , " << e << endl;
 
