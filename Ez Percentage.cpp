@@ -1,16 +1,16 @@
-#include <iostream>
-using namespace std;
+    #include <iostream>
+    using namespace std;
 
-/*enter you marks of five subjects with 
-space between each of them.....then give 
-another space and enter total max. marks
-of your exam....
-this software will help you get your
-total marks out of max. marks and will 
-also give you the percentage you got*/
+    /*enter you marks of five subjects with 
+    space between each of them.....then give 
+    another space and enter total max. marks
+    of your exam....
+    this software will help you get your
+    total marks out of max. marks and will 
+    also give you the percentage you got*/
 
 
-int main() {
+    int main() {
 
     float a;
     float b;
@@ -41,4 +41,4 @@ int main() {
     return 0;
 
 
-}
+    }
